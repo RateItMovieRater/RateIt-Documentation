@@ -1,7 +1,7 @@
 
 # Rate It
 
-### Plataforma de avaliação de filmes
+## Plataforma de avaliação de filmes
 
 **Gabriel dos Santos de Castro**
 
@@ -25,7 +25,7 @@ Os objetivos específicos deste projeto incluem:
 - Avaliar filmes e incentivar o bom gosto pela arte 
 - Incentivar a industria cinematográfica
 
-## Materiais e métodos
+## 1.3 Materiais e métodos
 
 Este projeto foi idealizado para ser implementado de forma independente por mim mesmo, porém caso haja a necessidade de manutenções futuras ou adição de novas funções ao sistema, poderão ser adicionados novos desenvolvedores assim surgindo a necessidade da utilização de algum método de desenvolvimento em grupo, como por exemplo o Team Development. Tendo claro esse ponto, podemos agora prosseguir para as demais tecnologias e métodos utilizados.
 
@@ -75,12 +75,21 @@ Os requisitos do sistema foram levantados tendo em vista o objetivo final de ger
 
 #### 2.2.1 Levantamento de Requisitos Funcionais
 
-equisitos funcionais descrevem as funcionalidades e ações específicas que um sistema ou software deve realizar, incluindo entradas, processamento e saídas. Eles definem o comportamento funcional do sistema.  
+Requisitos funcionais descrevem as funcionalidades e ações específicas que um sistema ou software deve realizar, incluindo entradas, processamento e saídas. Eles definem o comportamento funcional do sistema.  
 Os requisitos funcionais foram criados em conjunto do grupo que está no desenvolvimento dessa aplicação, e a orientadora, tendo como base pesquisas na web sobre o funcionamento de aplicações como essa. 
 
 No Quadro 1, encontram-se detalhadamente descritos os requisitos funcionais estabelecidos para o Rate It.
 
 Quadro 1 - Requisitos Funcionais do sistema Rate It
+
+| Código | Requisito Funcional                                                                                                                                                                                                                                                                                                                                                                                                                                               | Caso de uso               |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| RF 01  | O sistema deve permitir que usuários façam cadastro e  assim tenham acesso ao sistema. O usuário tem os atributos: id, name, login, password, isAdmin (variável booleana que indica se o usuário é administrador ou não).                                                                                                                                                                                                                                         | UC 01 - Manter Usuário    |
+| RF 02  | O sistema deve permitir acesso via login e senha                                                                                                                                                                                                                                                                                                                                                                                                                  | UC 02 -  Gerenciar Acesso |
+| RF 03  | Caso o usuário seja administrador, o sistema deve permitir que ele cadastre, edite, remova e liste os filmes do ambiente virtual. Além disso os filmes, que estão cadastrados no banco de dados, devem ter os atributos: id, title, releaseDate, description, genre e runtime.                                                                                                                                                                                    | UC 03 - Gerenciar Filmes  |
+| RF 04  | O sistema deve permitir que o usuário avalie os filmes, sendo que cada usuário pode avaliar um filme apenas uma vez, porém vários filmes diferentes, ou seja, um usuário pode fazer várias avaliações, desde que cada uma dela esteja relacionada a um filme diferente. Cada avaliação pode ter apenas um usuário e um filme atrelado, e no banco de dados  a avaliação possui os seguintes atributos: id, rate (nota), title, comment, user_id, movie_id.        | UC 04 - Manter Avaliações |
+| RF 05  | Já foi dito anteriormente que cada filme tem uma equipe (crew), composta por diversos atores, diretores e cineastras cadastrados em uma tabela "crew" no banco de dados, sendo que cada cineastra pode estar em vários filmes e vários filmes podem ter vários cineastras, inclusive repetidos ao longo de diferentes filmes. Esse crew também será gerenciado pelo administrador do sistema, que por sua vez pode adicionar, editar, remover e listar registros. | UC 05 - Gerenciar Crew    |
+ 
 
 
 

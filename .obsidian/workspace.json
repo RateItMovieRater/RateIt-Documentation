@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ed1946dc761171b1",
+        "id": "24091d75a6138b32",
         "type": "tabs",
         "children": [
           {
-            "id": "589c164fadf85007",
+            "id": "3e253fb1363a03cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation.md",
+                "file": "Documentação.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation.md",
+                "file": "Documentação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation.md",
+                "file": "Documentação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation.md"
+                "file": "Documentação.md"
               }
             }
           }
@@ -146,10 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "589c164fadf85007",
+  "active": "3e253fb1363a03cf",
   "lastOpenFiles": [
+    "Sumário.md",
+    "Documentação.md",
     "README.md",
-    "Documentation.md",
+    "Introdução.md",
     "create a link.md",
     "Welcome.md"
   ]
