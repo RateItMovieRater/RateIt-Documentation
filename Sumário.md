@@ -8,4 +8,5 @@
     - [[Documentação#2.1 Escopo do Projeto | 2.1 Escopo do Projeto]]
     - [[Documentação#2.2 Levantamento de requisitos | 2.2 Levantamento de Requisitos]]
         - [[Documentação#2.2.1 Levantamento de Requisitos Funcionais | 2.2.1 Levantamento de Requisitos Funcionais]]
-        - 
+        - [[Documentação#2.2.2 Regras de Negócio| Regras de Negócio]]
+        - [[Documentação#2.2.3 Requisitos Não Funcionais Tecnológicos| Requisitos Não Funcionais Tecnológicos]]
