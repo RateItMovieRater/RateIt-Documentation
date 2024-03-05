@@ -120,7 +120,12 @@ Quadro 3 - Requisitos Não Funcionais Tecnológicos do sistema Rate It
 | RNFT 04 | PostgreSQL 11 para gerenciamento do banco de dados.                       |
 | RNFT 05 | Git e GitHub para versionamento e armazenamento do código e documentação. |
 
+## 3 Diagramas de análise e modelagem do sistema
 
+Os diagramas são modelos visuais que ajudam a compreender a estrutura e funcionamento do sistema, desde partes isoladas até como um todo. São essenciais na Engenharia de Software por facilitarem o entendimento do sistema e comunicação entre os membros de a equipe de desenvolvimento.
 
+### 3.1 Diagrama de Entidade Relacionamento
 
+O diagrama de Entidade Relacionamento é um tipo de modelo visual que ajuda a compreender a estrutura do banco de dados através de entidades que representam as tabelas do banco, cada uma com seus devidos atributos, e também os relacionamentos entre as tabelas.
 
+![[RateItERD.png]]

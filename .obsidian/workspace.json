@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sumário.md",
+                "file": "Documentação.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sumário.md",
+                "file": "Documentação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sumário.md",
+                "file": "Documentação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sumário.md"
+                "file": "Documentação.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "3e253fb1363a03cf",
   "lastOpenFiles": [
-    "Documentação.md",
     "Sumário.md",
+    "Documentação.md",
+    "RateItERD.png",
     "README.md",
     "Introdução.md",
     "create a link.md",
