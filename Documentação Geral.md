@@ -1,4 +1,3 @@
-
 # Rate It
 
 ## Plataforma de avaliação de filmes
@@ -8,6 +7,22 @@
 ## Resumo
 
 Rate It é uma plataforma de avaliação de filmes idealizada com o intuito de facilitar a avaliação de filmes catalogados com a finalidade de que o usuário final possa filtrar o que lhe agrada ou não. Os conceitos mais gerais da aplicação envolvem as entidades dos filmes, avaliações, usuários, que também incluem o administrador do sistema e, finalmente, os membros da equipe de cada filme.
+
+## Sumário
+
+- [[Documentação Geral#1 Introdução| 1 Introdução]]
+    - [[Documentação Geral#1.1 Objetivo Geral| 1.1 Objetivo Geral]]
+    - [[Documentação Geral#1.2 Objetivos Específicos| 1.2 Objetivos Específicos]]
+    - [[Documentação Geral#1.3 Materiais e métodos| 1.3 Materiais e Métodos]]
+- [[Documentação Geral#2 Apresentação do Projeto| 2 Apresentação do Projeto]]
+    - [[Documentação Geral#2.1 Escopo do Projeto| 2.1 Escopo do Projeto]]
+    - [[Documentação Geral#2.2 Levantamento de requisitos| 2.2 Levantamento de Requisitos]]
+        - [[Documentação Geral#2.2.1 Requisitos Funcionais| 2.2.1 Requisitos Funcionais]]
+        - [[Documentação Geral#2.2.2 Regras de Negócio| 2.2.2 Regras de Negócio]]
+        - [[Documentação Geral#2.2.3 Requisitos Não Funcionais Tecnológicos| 2.2.3 Requisitos Não Funcionais Tecnológicos]]
+- [[Documentação Geral#3 Diagramas de análise e modelagem do sistema| 3 Diagramas de análise e modelagem do sistema]]
+    - [[Documentação Geral#3.1 Diagrama de Entidade Relacionamento| 3.1 Diagrama de Entidade Relacionamento]]
+
 
 ## 1 Introdução
 
@@ -75,7 +90,7 @@ Os "crewMember", não são usuários do sistema, apenas figuras cadastradas no b
 
 Os requisitos do sistema foram levantados tendo em vista o objetivo final de gerar um ambiente confiável e fácil de usar, gerando assim uma melhor experiência do usuário (UX). Para isso foram tomados como base sistemas como o Rotten Tomatoes e o IMDb (Ambos sistemas já existentes de avaliações de filmes).
 
-#### 2.2.1 Levantamento de Requisitos Funcionais
+#### 2.2.1 Requisitos Funcionais
 
 Requisitos funcionais descrevem as funcionalidades e ações específicas que um sistema ou software deve realizar, incluindo entradas, processamento e saídas. Eles definem o comportamento funcional do sistema.  
 Os requisitos funcionais foram criados em conjunto do grupo que está no desenvolvimento dessa aplicação, e a orientadora, tendo como base pesquisas na web sobre o funcionamento de aplicações como essa. 
